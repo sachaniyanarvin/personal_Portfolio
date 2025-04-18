@@ -1,0 +1,59 @@
+.ofc-project{
+    width: 100%;
+    border-right: solid gray 1px;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.per-project{
+    width: 30%;
+    border-right: solid gray 1px;
+    height: 100vh;
+    overflow: scroll;
+    padding: 1%;
+}
+
+i {
+    color : red;
+}
+
+@media screen and (max-width:768px) {
+    .card{
+        width: 85vw;
+        height: 65vw;
+    }
+
+
+    .card:first-of-type{
+        height: 80vw !important;
+    }
+
+    .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card:hover .box{
+        width: 90%;
+    }
+    .card:hover h2{
+    top: -20px;
+    }
+
+    .project{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0 !important;
+        border: unset;
+    }
+
+    .ofc-project{
+        width: 100%;
+        border: unset;
+        width: 100%;
+    }
+
+}

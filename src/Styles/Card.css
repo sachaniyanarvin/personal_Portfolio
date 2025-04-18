@@ -1,0 +1,158 @@
+.card {
+    position: relative;
+    /* max-width : 300px; */
+    height : 180px;
+    margin : 0 3vh 3vh 3vh;
+    padding : 20px 15px;
+    box-shadow: 4px 4px 10px 0 rgba(0,0,0,.1), -4px -4px 10px rgba(255,255,255,1);
+    display : flex;
+    flex-direction : column;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+    transition : 0.3s ease-in-out;
+    border-radius : 15px;
+    box-shadow: .4rem .4rem 1rem #ccc,
+    -.4rem -.4rem 1rem #fff;
+    height: 25vh;
+    width: 90%;
+
+  }
+
+  .card1{
+    /* background-image: url(../assest/images/royalFood.png) !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: auto;
+    width: 90% !important; */
+  }
+   /* .card:hover {
+    height : 320px;
+  }
+   */
+
+   .card .no-ind {
+    /* position : relative; */
+    width : 260px;
+    height : 260px;
+
+    top : -40%;
+    left: 8px;
+    /* box-shadow : 0 5px 20px rgba(0,0,0,0.2); */
+    /* z-index : 1; */
+  }
+
+   .card .image img {
+    max-width : 100%;
+    border-radius : 15px;
+  }
+
+   .card .content {
+    position : relative;
+    top : -140px;
+    padding : 10px 15px;
+    color : #111;
+    text-align : center;
+
+    visibility : hidden;
+    opacity : 0;
+    transition : 0.3s ease-in-out;
+
+  }
+
+
+
+  .no-ind{
+    box-shadow: inset 5px 5px 5px rgb(0 0 0 / 5%),
+    inset -5px -5px 5px rgb(255 255 255 / 50%),
+    5px 5px 15px rgb(0 0 0 / 5%),
+    -5px -5px 15px rgb(255 255 255 / 50%);
+  }
+
+  .box{
+  position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background: #e7f1f952;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    overflow: hidden;
+    /* white-space: nowrap; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.p-box{
+  margin-top: 60%;
+}
+
+.card .box .content {
+  padding: 20px;
+  text-align: center;
+}
+
+ .card .box h2 {
+  position: absolute;
+  /* top: -10px; */
+  right: 0;
+  font-size: 8em;
+  color: rgb(0 0 0 / 8%);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  pointer-events: none;
+  top: -4vh;
+}
+
+.card:hover h2 {
+  color: rgb(0 0 0 /50%);
+  /* bottom: -10px; */
+  transition: 1s ease-in-out;
+    -webkit-transition: 1s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    top: -30px;
+    right: 0;
+    font-size: 2em;
+    z-index: 222;
+   /* margin-top : 30px;
+   visibility : visible;
+   opacity : 1;
+   transition-delay: 0.2s; */
+
+}
+
+.card:hover{
+  background-color: rgba(139, 142, 145, 0.358);
+  border: solid gray 1px;
+}
+
+.card:hover .box{
+  /* height: auto; */
+    z-index: 11;
+    opacity: 1;
+    background: #e7f1f9f5;
+    /* transform: scale(1.05); */
+    height: 100%;
+    border: solid 1px #d1d1d1;
+}
+
+.p1{
+  padding: 1vw;
+}
+
