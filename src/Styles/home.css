@@ -97,23 +97,23 @@
 }
 
 .wts {
-  background-image: url(D:\PORTFOLIO\Portfolio-Narvin\src\assets\logos\whatsapp-brands.svg);
+  background-image: url("https://res.cloudinary.com/dxpcwcmv3/image/upload/v1747640124/qrfrepuuu38ap8temv1c.svg");
 }
 
 .mail {
-  background-image: url(D:\PORTFOLIO\Portfolio-Narvin\src\assets\logos\envelope-solid.svg);
+  background-image: url("https://res.cloudinary.com/dxpcwcmv3/image/upload/v1747640416/bow0pvxzypo8fv1yevz9.svg");
 }
 
 .linkedin {
-  background-image: url(D:\PORTFOLIO\Portfolio-Narvin\src\assets\logos\linkedin-brands.svg)
+  background-image: url("https://res.cloudinary.com/dxpcwcmv3/image/upload/v1747640350/ojc4rwivmpdgar9v52gc.svg");
 }
 
 .call {
-  background-image: url(D:\PORTFOLIO\Portfolio-Narvin\src\assets\logos\phone-solid.svg);
+  background-image: url("https://res.cloudinary.com/dxpcwcmv3/image/upload/v1747640254/upngqwsfvnwdvemifd3j.svg");
 }
 
 .github {
-  background-image: url(D:\PORTFOLIO\Portfolio-Narvin\src\assets\logos\github-brands.svg);
+  background-image: url("https://res.cloudinary.com/dxpcwcmv3/image/upload/v1747640301/kuznx0mnxttrsag5zl2p.svg");
 }
 
 a {
