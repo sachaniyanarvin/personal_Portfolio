@@ -7,6 +7,7 @@ import About from './Pages/About'
 import Contact from './Pages/Contact'
 import Education from './Pages/Education'
 // import Experience from './Pages/Experience'
+import Certificates from './Pages/Certificates'
 import Home from './Pages/Home'
 import Projects from './Pages/Projects'
 
@@ -25,6 +26,7 @@ function App() {
                     <Route path='/' element={<Home />} />
                     <Route path='/projects' element={<Projects />} />
                     {/* <Route path='/experience' element={<Experience />} /> */}
+                    <Route path='/certificates' element={<Certificates/>}/>
                     <Route path='/about' element={<About />} />
                     <Route path='/contact' element={<Contact />} />
                     <Route path='/education' element={<Education />} />
