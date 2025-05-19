@@ -35,6 +35,9 @@ const hideMenu =()=>{
                 <div className='div-option' onClick={hideMenu}>
                     <Link to='/education'>Education</Link>
                 </div>
+                <div className='div-option' onClick={hideMenu}>
+                    <Link to='/certificates'>Certificates</Link>
+                </div>
                 {/* <div className='div-option' onClick={hideMenu}>
                     <Link to='/experience'> Experience</Link>
                 </div> */}
